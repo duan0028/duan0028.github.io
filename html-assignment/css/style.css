@@ -1,0 +1,38 @@
+body {
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+header, footer {
+  background-color: blue;
+}
+
+.site-title {
+  color: green;
+}
+
+#my-image {
+  box-shadow: 0 0 2px 1px black;
+}
+
+ol {
+  list-style-type: square;
+}
+
+ol li:nth-child(odd) {
+  background-color: aqua;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  background-color: chocolate;
+  border: 1px solid powderblue;
+}
+
+nav ul li a:hover {
+  background-color: pink;
+}
