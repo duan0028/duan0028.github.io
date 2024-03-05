@@ -1,0 +1,144 @@
+html {
+  margin: 0 auto;
+  background-color: #AAD4CF;
+}
+
+body {
+  width: 800px;
+  background-color: #D4E9E7;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+/* header: banner & nav */
+.site-header {
+  position: relative;
+}
+
+.site-banner {
+  width: 100%;
+}
+
+.site-title {
+  position: absolute;
+  top: 156px;
+  left: 274px;
+  font-size: 46px;
+  font-weight: normal;
+  color: #FFFFFF;
+}
+
+.site-nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.site-nav li {
+  flex: 1;
+  padding: 6px 0;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.site-nav li:nth-child(2) {
+  border-right: 1px solid #000000;
+  border-left: 1px solid #000000;
+}
+
+.site-nav li a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.site-nav li a:hover {
+  color: #AAD4CF;
+}
+
+/* main content */
+.main-content {
+  margin-top: 20px;
+  padding: 0 10px;
+}
+
+.section-item {
+  margin-bottom: 20px;
+}
+
+.section-title {
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+/* starfish story */
+.starfish-image {
+  float: left;
+  margin: 0 16px 10px 0;
+  width: 200px;
+  height: 200px;
+}
+
+.starfish-text {
+  line-height: 1.5;
+  font-size: 12px;
+}
+
+/* facts about starfish */
+.facts-list {
+  margin-left: 12px;
+  list-style-type: disc;
+  font-size: 12px;
+}
+
+/* contact form */
+.site-form {
+  border: 1px solid #000000;
+  padding: 10px;
+}
+
+.site-form label {
+  font-size: 14px;
+} 
+
+.site-form input,
+.site-form textarea {
+  width: 100%;
+  padding: 4px;
+  margin: 6px 0 10px;
+  border: 1px solid #CCCCCC;
+  box-sizing: border-box;
+  resize: none;
+}
+
+.radio-label {
+  cursor: pointer;
+}
+
+.site-form input[type="radio"] {
+  display: inline-block;
+  width: auto;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.submit-button {
+  margin-top: 10px;
+  border: 1px solid #000000;
+  background-color: transparent;
+  padding: 8px 10px;
+}
+
+.submit-button:hover {
+  background-color: #AAD4CF;
+  cursor: pointer;
+}
+
+/* footer */
+.site-footer {
+  padding: 0 10px 20px;
+  text-align: right;
+  font-size: 14px;
+}
