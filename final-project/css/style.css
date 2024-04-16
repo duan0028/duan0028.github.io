@@ -245,6 +245,7 @@ header .logo-container {
 }
 
 .contact-section .operation-table th {
+  text-align: center;
   font-weight: normal;
   background-color: var(--secondary-color);
 }
